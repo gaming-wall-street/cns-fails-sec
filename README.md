@@ -2,7 +2,12 @@
 
 This repo processes data from https://www.sec.gov/data/foiadocsfailsdatahtm
 
+## Instructions
 
+Run the programs in the following order:
+1. [download-and-sanitize-cnsfails](./download-and-sanitize-cnsfails.ipynb)
+2. [download-symbol-data](./download-symbol-data.ipynb)
+3. [process-and-visualize](./process-and-visualize.ipynb)
 
 ## Data Quality
 
