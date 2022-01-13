@@ -1,6 +1,6 @@
-# CNS Fails
+# CNS Fails SEC
 
-This repo processes data from https://www.sec.gov/data/foiadocsfailsdatahtm
+This repo downloads, cleans and processes data from https://www.sec.gov/data/foiadocsfailsdatahtm to make is useable for further analyzing it.
 
 ## Instructions
 
@@ -9,7 +9,7 @@ Run the programs in the following order:
 2. [download-symbol-data](./download-symbol-data.ipynb)
 3. [process-and-visualize](./process-and-visualize.ipynb)
 
-## Data Quality
+## Data Quality SEC
 
 We found some broken entries in the files. Those look like strange scanner issues (e.g. using `|` instead of `!`). Also the price column is missing some entries.
 
