@@ -1,6 +1,6 @@
 # CNS Fails SEC
 
-This repo downloads, cleans and processes data from https://www.sec.gov/data/foiadocsfailsdatahtm to make is useable for further analyzing it.
+This repo downloads, cleans and processes text file (laid out as CSVs) data from https://www.sec.gov/data/foiadocsfailsdatahtm to make is useable for further analysis.
 
 ## Instructions
 
@@ -11,7 +11,7 @@ Run the programs in the following order:
 
 ## Data Quality SEC
 
-We found some broken entries in the files. Those look like strange scanner issues (e.g. using `|` instead of `!`). Also the price column is missing some entries.
+We found some broken entries in the files. Those look like OCR scanning issues (e.g. using `|` instead of `!`), which suggests that a portion of the data was submitted to the SEC in the form of paper, and scanned by the commission. Also, the price column is missing many entries in earlier years.
 
 ### Missing Price entries
 
