@@ -17,7 +17,7 @@ Run the programs in the following order:
 2. [download-symbol-data](./download-symbol-data.ipynb)
 3. [process-and-visualize](./process-and-visualize.ipynb)
 
-## Data Quality SEC
+## Data Quality of the SEC Dataset
 
 We found some broken entries in the files. Those look like OCR scanning issues (e.g. using `|` instead of `!`), which suggests that a portion of the data was submitted to the SEC in the form of paper, and scanned by the commission. Also, the price column is missing many entries in earlier years.
 
