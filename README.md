@@ -2,8 +2,9 @@
 
 This repo downloads, cleans and processes text file data (laid out as CSVs) from https://www.sec.gov/data/foiadocsfailsdatahtm to make is useable for further analysis.
 The data encompasses Failures to Deliver (FTDs) of securities in the U.S. stock market, from 2004 to the present.
-The contents of the dataset are millions of rows in 6 columns, and is very cumbersome to analyze in aggregate since it is split up in 100+ files. This repo makes the dataset more accessible by aggregation.
-The SEC provides the date of the failure, the name and quantity of the security that wasn't delivered, and the closing price on this day.
+The SEC dataset provides the date of the failure, the name and quantity of the security that wasn't delivered, and the closing price on the day of the fail.
+The contents of the dataset are millions of rows in 6 columns, and is very cumbersome to analyze over long periods of time in aggregate since it is split up in 100+ files. This repo makes the dataset more accessible by aggregation.
+
 
 Said data is shown in the documentary series "Gaming Wall Street", for which we built the repo initially.
 Another - no relation here - effort to visualize this data is https://sec.report/fails.php , which visualizes historical fail data for individual stocks, but offers no aggregate visualization.
