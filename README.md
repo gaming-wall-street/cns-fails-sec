@@ -1,4 +1,4 @@
-# CNS Fails SEC
+# CNS Fails to Deliver (FTDs), sourced from SEC
 
 This repo downloads, cleans and processes text file data (laid out as CSVs) from https://www.sec.gov/data/foiadocsfailsdatahtm to make is useable for further analysis.
 The data encompasses Failures to Deliver (FTDs) of securities in the U.S. stock market, from 2004 to the present.
