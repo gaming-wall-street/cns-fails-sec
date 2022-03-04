@@ -1,5 +1,7 @@
 # CNS Fails to Deliver (FTDs), sourced from SEC
 
+This project originated from the "Gaming Wall Street" Docu-Series that is now streaming on HBO Max. You can learn more at http://www.gamingwallstreet.org .
+
 This repo downloads, cleans and processes text file data (laid out as CSVs) from https://www.sec.gov/data/foiadocsfailsdatahtm to make is useable for further analysis.
 The data encompasses Failures to Deliver (FTDs - https://www.investopedia.com/terms/f/failuretodeliver.asp) of securities in the U.S. stock market, from 2004 to the present, in the Continuous Net Settlement (CNS) system.
 The SEC dataset provides the date of the failure, the name and quantity of the security that wasn't delivered, and the closing price on the day of the fail.
