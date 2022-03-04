@@ -1,7 +1,7 @@
 # CNS Fails to Deliver (FTDs), sourced from SEC
 
 This repo downloads, cleans and processes text file data (laid out as CSVs) from https://www.sec.gov/data/foiadocsfailsdatahtm to make is useable for further analysis.
-The data encompasses Failures to Deliver (FTDs) of securities in the U.S. stock market, from 2004 to the present, in the Continuous Net Settlement (CNS) system.
+The data encompasses Failures to Deliver (FTDs - https://www.investopedia.com/terms/f/failuretodeliver.asp) of securities in the U.S. stock market, from 2004 to the present, in the Continuous Net Settlement (CNS) system.
 The SEC dataset provides the date of the failure, the name and quantity of the security that wasn't delivered, and the closing price on the day of the fail.
 The contents of the dataset are millions of rows in 6 columns, and is very cumbersome to analyze over long periods of time in aggregate since it is split up in 100+ files. This repo makes the dataset more accessible by aggregation.
 ![CNS Fails to Deliver chart showing fail value and number of shares that failed on a daily basis](https://github.com/gaming-wall-street/cns-fails-sec/blob/main/cns-fails-to-deliver-2004-to-2021_SEC-dataset-visualization.png?raw=true "CNS Fails Data by SEC, 2004-2021")
